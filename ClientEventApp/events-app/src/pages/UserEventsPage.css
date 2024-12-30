@@ -1,0 +1,128 @@
+.user-events-container {
+    background-color: #f4f7fb;
+    padding: 40px 20px;
+    border-radius: 8px;
+    max-width: 1200px;
+    margin: 60px auto;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .user-events-container h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .event-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .event-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .event-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .event-item h3 {
+    font-size: 1.6rem;
+    color: #1d2d50;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .event-item p {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 8px;
+  }
+  
+  .event-item .event-info {
+    font-size: 0.9rem;
+    color: #888;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .event-item .event-info span {
+    font-weight: 500;
+  }
+  
+  .event-item .location {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .error-message {
+    color: #d9534f;
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .loading-message {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #007bff;
+  }
+  
+  @media (max-width: 768px) {
+    .user-events-container {
+      padding: 20px;
+    }
+  
+    .event-item {
+      padding: 15px;
+    }
+  
+    .event-item h3 {
+      font-size: 1.4rem;
+    }
+  
+    .event-item p {
+      font-size: 0.9rem;
+    }
+  
+    .event-item .event-info {
+      font-size: 0.85rem;
+    }
+  }
+
+.page-description {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .page-description p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .page-description p::before {
+    content: "🎉";
+    font-size: 1.5rem;
+    margin-right: 8px;
+    vertical-align: middle;
+  }
+  
+  .user-events-container {
+    padding-top: 20px;
+  }

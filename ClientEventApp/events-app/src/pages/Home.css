@@ -1,0 +1,189 @@
+.home {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #ff7e5f, #feb47b); 
+    color: #fff;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    max-width: 1000px;
+    margin: 80px auto;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+
+.home h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+
+.home p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+
+    margin: 10px 0;
+}
+
+
+.date-time-info {
+    margin-top: 30px;
+    morging-bottom: 100px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.date-time-info p {
+    font-size: 1.1rem;
+    margin-bottom: 8px;
+}
+
+.date-time-info p strong {
+    font-weight: bold;
+    color: #feb47b; 
+}
+
+
+.home:hover {
+    transform: translateY(-10px); 
+}
+
+@media (max-width: 600px) {
+    .home {
+        padding: 20px;
+        font-size: 1rem;
+    }
+
+    .home h2 {
+        font-size: 1.8rem;
+    }
+}
+
+.filter-form {
+    background: linear-gradient(145deg, #f8f9fa, #ffffff);
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    max-width: 900px;
+    margin: 40px auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+
+.filter-form:hover {
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.18);
+}
+
+
+.filter-form h3 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 25px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.filter-form label {
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+    color: #374151;
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+}
+
+.filter-form input {
+    width: 50%;
+    padding: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9fafb;
+}
+
+.filter-form input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 8px rgba(37, 99, 235, 0.5);
+    background-color: white;
+}
+
+.filter-form button {
+    padding: 14px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top:10px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.filter-form button[type="submit"] {
+    background-color: #3498db;
+    color: white;
+    font-weight: 700;
+}
+
+.filter-form button[type="submit"]:hover {
+    background-color: #3498db;
+    transform: translateY(-3px);
+}
+
+.filter-form button[type="button"] {
+    background-color: #6b7280;
+    color: white;
+    margin-left: 14px;
+    font-weight: 700;
+}
+
+.filter-form button[type="button"]:hover {
+    background-color: #4b5563;
+    transform: translateY(-3px);
+}
+
+.filtered-events ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.event-card {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 16px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+}
+
+.event-card h4 {
+    margin: 0 0 18px 0;
+    color: #3498db;
+    font-size: 1.35rem;
+    font-weight: 700;
+}
+
+.event-card p {
+    margin: 10px 0;
+    color: #374151;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.error {
+    color: #dc2626;
+    font-weight: 700;
+    font-size: 1.1rem;
+}

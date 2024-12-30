@@ -1,0 +1,39 @@
+version: '3.4'
+
+services:
+  api:
+    image: server
+    restart: on-failure
+    build:
+      context: ./EventApp
+      dockerfile: Dockerfile
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=db;Database=EventApp;Username=postgres;Password=12122004
+      - ASPNETCORE_ENVIRONMENT=Development
+    ports:
+      - "7145:8080" 
+      - "7146:8081"
+    depends_on:
+      - db
+
+  db:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 12122004
+    volumes:
+      - database_data:/var/lib/postgresql/data 
+
+  client:
+    build:
+      context: ./ClientEventApp/events-app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    depends_on:
+      - api
+  
+volumes:
+  database_data:
+    driver: local

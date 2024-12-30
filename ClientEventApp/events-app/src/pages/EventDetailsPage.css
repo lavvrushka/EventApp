@@ -1,0 +1,199 @@
+.event-details-page {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 100px 0px 100px 500px; 
+    background: linear-gradient(145deg, #e0e0e0, #ffffff);
+    border-radius: 15px;
+  }
+  
+  .event-details-content {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    animation: fadeIn 0.6s ease-in-out;
+    
+  }
+  
+  .event-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+  
+  .event-description {
+    font-size: 1.2rem;
+    color: #555;
+    margin-bottom: 30px;
+    line-height: 1.6;
+  }
+  
+  .event-meta p {
+    font-size: 1rem;
+    color: #444;
+    margin-bottom: 12px;
+    font-weight: 500;
+  }
+  
+  .register-button {
+    background: linear-gradient(135deg, #00b4d8, #0077b6);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: transform 0.2s ease, background 0.3s ease;
+    font-weight: 600;
+    letter-spacing: 1px;
+  }
+  
+  .register-button:hover {
+    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    transform: scale(1.05);
+  }
+  
+  .registration-status {
+    font-size: 1.1rem;
+    color: #28a745;
+    margin-top: 15px;
+    font-weight: 600;
+  }
+  
+  .participants-section {
+    width: 320px;
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    animation: slideIn 0.6s ease-in-out;
+  }
+  
+  .participants-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .participants-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .participant-card {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 15px;
+    transition: transform 0.2s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .participant-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+  }
+  
+  .participant-name {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .participant-email {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .no-participants {
+    color: #777;
+    font-size: 1.2rem;
+    font-style: italic;
+  }
+  
+  .pagination-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+  }
+  
+  .pagination-button {
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 10px 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: background 0.3s ease, border-color 0.3s ease;
+  }
+  
+  .pagination-button:hover {
+    background: #e2e2e2;
+  }
+  
+  .pagination-button:disabled {
+    background: #f8f8f8;
+    cursor: not-allowed;
+  }
+  
+  .pagination-button.active {
+    background: #0077b6;
+    color: white;
+    border-color: #0077b6;
+  }
+  
+  .loader {
+    text-align: center;
+    font-size: 1.5rem;
+    color: #0077b6;
+  }
+  
+  .error {
+    color: red;
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: translateX(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+.event-images {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 30px;
+}
