@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
-using EventApp.Application.Common.Interfaces;
 using EventApp.Application.DTOs.Event.Requests;
 using EventApp.Application.DTOs.Location.Request;
 using EventApp.Application.UseCases.EventUsecases;
+using EventApp.Domain.Intarfaces.IRepositories;
 using EventApp.Domain.Models;
 using EventApp.Domain.ValueObjects;
 using MediatR;

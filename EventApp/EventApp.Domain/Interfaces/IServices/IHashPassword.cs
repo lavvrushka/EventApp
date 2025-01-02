@@ -1,5 +1,5 @@
 ﻿
-namespace EventApp.Application.Common.Interfaces.IServices
+namespace EventApp.Domain.Interfaces.IServices
 {
     /// <summary>
     /// Interface for hashing passwords and verifying password hashes.

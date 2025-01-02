@@ -1,4 +1,4 @@
-﻿using EventApp.Application.Common.Interfaces.IServices;
+﻿using EventApp.Domain.Interfaces.IServices;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;

@@ -1,6 +1,6 @@
 ﻿using EventApp.Domain.Models;
 
-namespace EventApp.Application.Common.Interfaces.IServices
+namespace EventApp.Domain.Interfaces.IServices
 {
     public interface ITokenService
     {

@@ -1,6 +1,6 @@
-﻿using EventApp.Application.Common.Interfaces.IRepositories;
+﻿using EventApp.Domain;
 
-namespace EventApp.Application.Common.Interfaces
+namespace EventApp.Domain.Intarfaces.IRepositories
 {
     /// <summary>
     /// Represents a unit of work that provides repositories for interacting with entities and ensures atomic operations.

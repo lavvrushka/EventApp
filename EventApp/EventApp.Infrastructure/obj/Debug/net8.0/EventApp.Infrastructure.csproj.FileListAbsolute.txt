@@ -21,9 +21,7 @@ C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\bin\Deb
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\bin\Debug\net8.0\EventApp.Infrastructure.runtimeconfig.json
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\bin\Debug\net8.0\EventApp.Infrastructure.dll
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\bin\Debug\net8.0\EventApp.Infrastructure.pdb
-C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\bin\Debug\net8.0\EventApp.Application.dll
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\bin\Debug\net8.0\EventApp.Domain.dll
-C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\bin\Debug\net8.0\EventApp.Application.pdb
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\bin\Debug\net8.0\EventApp.Domain.pdb
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\obj\Debug\net8.0\EventApp.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\obj\Debug\net8.0\EventApp.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig

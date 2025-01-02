@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace EventApp.Application.Common.Interfaces.IServices
+namespace EventApp.Domain.Interfaces.IServices
 {
     public interface IEmailNotificationService
     {

@@ -1,19 +1,12 @@
 ﻿using Moq;
-using MediatR;
-using EventApp.Application.Common.Interfaces;
 using EventApp.Application.DTOs.Event.Requests;
 using EventApp.Application.DTOs.Event.Responses;
 using EventApp.Application.UseCases.EventUsecases;
 using EventApp.Domain.Models;
 using AutoMapper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading;
-using System.Threading.Tasks;
-using Xunit;
 using EventApp.Application.DTOs.Location.Response;
 using EventApp.Domain.ValueObjects;
+using EventApp.Domain.Intarfaces.IRepositories;
 
 namespace EventApp.Tests.UsecasesTests
 {

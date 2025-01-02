@@ -1,10 +1,10 @@
-﻿using EventApp.Application.Common.Interfaces;
-using EventApp.Application.DTOs.User.Responses;
+﻿using EventApp.Application.DTOs.User.Responses;
 using EventApp.Application.DTOs.User.Requests;
 using MediatR;
 using Microsoft.AspNetCore.Http;
 using AutoMapper;
-using EventApp.Application.Common.Interfaces.IServices;
+using EventApp.Domain.Intarfaces.IRepositories;
+using EventApp.Domain.Interfaces.IServices;
 
 namespace EventApp.Application.UseCases.UserUsecases
 {

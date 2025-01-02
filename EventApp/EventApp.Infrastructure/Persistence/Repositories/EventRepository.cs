@@ -1,7 +1,8 @@
 ﻿using EventApp.Domain.Models;
-using EventApp.Application.Common.Interfaces.IRepositories;
 using EventApp.Infrastructure.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
+using EventApp.Domain.Intarfaces.IRepositories;
+using System.Linq.Expressions;
 
 namespace EventApp.Infrastructure.Persistence.Repositories
 {
@@ -51,33 +52,16 @@ namespace EventApp.Infrastructure.Persistence.Repositories
             return await _context.Events.Include(e => e.Image).Include(e => e.Users).OrderBy(e => e.Location.City).ToListAsync();
         }
 
-        public async Task<List<Event>> GetEventsFilteredAsync(string? address = null, string? city = null, string? state = null, string? country = null, string? category = null)
+        public async Task<List<Event>> GetFilteredAsync(Expression<Func<Event, bool>> filter)
         {
-            var query = _context.Events.AsQueryable();
-
-            if (!string.IsNullOrEmpty(city))
-            {
-                query = query.Where(e => e.Location.City == city);
-            }
-
-            if (!string.IsNullOrEmpty(country))
-            {
-                query = query.Where(e => e.Location.Country == country);
-            }
-            if (!string.IsNullOrEmpty(address))
-            {
-                query = query.Where(e => e.Location.Address == address);
-            }
-            if (!string.IsNullOrEmpty(state))
-            {
-                query = query.Where(e => e.Location.State == state);
-            }
-            query = query.Where(x => string.IsNullOrEmpty(category) || x.Category.Trim().ToLower().Contains(category.Trim().ToLower()));
-
-
-            return await query.ToListAsync();
+            return await _context.Events
+                .Where(filter)
+                .Include(e => e.Image)
+                .Include(e => e.Users)
+                .ToListAsync();
         }
-        
+
+
         public async Task<List<Event>> GetByPageAsync(PageSettings pageSettings)
         {
             return await _context.Events

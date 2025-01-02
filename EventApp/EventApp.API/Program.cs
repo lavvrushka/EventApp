@@ -1,8 +1,8 @@
 using EventApp.API.Extensions;
 using EventApp.API.Middlewares;
-using EventApp.Application.Common.Interfaces.IServices;
 using EventApp.Application.Common.Mappings;
 using EventApp.Application.Common.Validation;
+using EventApp.Domain.Interfaces.IServices;
 using EventApp.Infrastructure.Persistence.Context;
 using EventApp.Infrastructure.Services;
 using MediatR;

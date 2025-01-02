@@ -209,8 +209,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\EventApp.Application.csproj": {
-                "projectPath": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\EventApp.Application.csproj"
+              "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Domain\\EventApp.Domain.csproj": {
+                "projectPath": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Domain\\EventApp.Domain.csproj"
               }
             }
           }
@@ -255,6 +255,10 @@
             "MimeKit": {
               "target": "Package",
               "version": "[4.9.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
@@ -318,6 +322,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\EventApp.Application.csproj": {
+                "projectPath": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\EventApp.Application.csproj"
+              },
               "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj"
               }
@@ -339,6 +346,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[8.0.11, )"

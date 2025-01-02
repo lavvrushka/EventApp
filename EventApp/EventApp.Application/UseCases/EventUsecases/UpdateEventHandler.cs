@@ -1,8 +1,8 @@
 ﻿using AutoMapper;
 using EventApp.Application.Common.Exeptions;
-using EventApp.Application.Common.Interfaces;
-using EventApp.Application.Common.Interfaces.IServices;
 using EventApp.Application.DTOs.Event.Requests;
+using EventApp.Domain.Intarfaces.IRepositories;
+using EventApp.Domain.Interfaces.IServices;
 using EventApp.Domain.ValueObjects;
 using MediatR;
 

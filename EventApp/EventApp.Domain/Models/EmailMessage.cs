@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EventApp.Application.DTOs.Email
+namespace EventApp.Domain.Models
 {
-    public class EmailDto
+    public class EmailMassege
     {
         public string To { get; set; }
         public string Subject { get; set; }

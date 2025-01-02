@@ -1,5 +1,5 @@
-﻿using EventApp.Application.Common.Interfaces;
-using EventApp.Application.DTOs.Event.Requests;
+﻿using EventApp.Application.DTOs.Event.Requests;
+using EventApp.Domain.Intarfaces.IRepositories;
 using MediatR;
 
 namespace EventApp.Application.UseCases.EventUsecases

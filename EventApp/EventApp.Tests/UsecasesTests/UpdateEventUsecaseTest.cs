@@ -1,14 +1,14 @@
 ﻿using AutoMapper;
 using EventApp.Application.Common.Exeptions;
-using EventApp.Application.Common.Interfaces;
 using EventApp.Application.DTOs.Event.Requests;
 using EventApp.Application.UseCases.EventUsecases;
 using EventApp.Domain.Models;
 using EventApp.Domain.ValueObjects;
 using Moq;
 using MediatR;
-using EventApp.Application.Common.Interfaces.IServices;
 using EventApp.Application.DTOs.Location.Request;
+using EventApp.Domain.Intarfaces.IRepositories;
+using EventApp.Domain.Interfaces.IServices;
 
 namespace EventApp.Tests.UsecasesTests
 {
@@ -124,7 +124,5 @@ namespace EventApp.Tests.UsecasesTests
             _unitOfWorkMock.Verify(u => u.SaveChangesAsync(), Times.Once);
             _emailNotificationServiceMock.Verify(s => s.SendEventUpdateNotificationAsync(It.IsAny<Event>()), Times.Once);
         }
-
-       
     }
 }

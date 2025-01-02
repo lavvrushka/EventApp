@@ -1,5 +1,5 @@
-﻿using EventApp.Application.Common.Interfaces.IServices;
-using EventApp.Application.Common.Interfaces;
+﻿using EventApp.Domain.Intarfaces.IRepositories;
+using EventApp.Domain.Interfaces.IServices;
 using EventApp.Domain.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;

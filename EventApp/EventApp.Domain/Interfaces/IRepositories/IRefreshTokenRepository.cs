@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
-namespace EventApp.Application.Common.Interfaces.IRepositories
+namespace EventApp.Domain.Intarfaces.IRepositories
 {
     public interface IRefreshTokenRepository : IRepository<RefreshToken>
     {

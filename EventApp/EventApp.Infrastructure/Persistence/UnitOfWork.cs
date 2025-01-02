@@ -1,5 +1,4 @@
-﻿using EventApp.Application.Common.Interfaces.IRepositories;
-using EventApp.Application.Common.Interfaces;
+﻿using EventApp.Domain.Intarfaces.IRepositories;
 using EventApp.Infrastructure.Persistence.Context;
 using EventApp.Infrastructure.Persistence.Repositories;
 

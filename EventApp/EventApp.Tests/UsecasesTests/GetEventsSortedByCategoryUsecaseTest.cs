@@ -1,10 +1,10 @@
 ﻿using Moq;
 using AutoMapper;
-using EventApp.Application.Common.Interfaces;
 using EventApp.Application.DTOs.Event.Requests;
 using EventApp.Application.DTOs.Event.Responses;
 using EventApp.Application.UseCases.EventUsecases;
 using EventApp.Domain.Models;
+using EventApp.Domain.Intarfaces.IRepositories;
 
 namespace EventApp.Tests.UsecasesTests
 {
@@ -56,8 +56,5 @@ namespace EventApp.Tests.UsecasesTests
             Assert.Equal("Music", result[1].Category);
             Assert.Equal("Technology", result[2].Category);
         }
-
-
-
     }
 }

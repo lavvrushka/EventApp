@@ -1,4 +1,4 @@
-﻿using EventApp.Application.Common.Interfaces.IRepositories;
+﻿using EventApp.Domain.Intarfaces.IRepositories;
 using EventApp.Infrastructure.Persistence.Context;
 using Microsoft.EntityFrameworkCore;
 using System;

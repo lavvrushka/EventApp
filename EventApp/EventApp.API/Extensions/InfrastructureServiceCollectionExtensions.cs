@@ -1,11 +1,12 @@
-﻿using EventApp.Application.Common.Interfaces.IRepositories;
-using EventApp.Application.Common.Interfaces.IServices;
-using EventApp.Application.Common.Interfaces;
-using EventApp.Infrastructure.Persistence.Context;
+﻿using EventApp.Infrastructure.Persistence.Context;
 using EventApp.Infrastructure.Persistence.Repositories;
 using EventApp.Infrastructure.Services;
 using Microsoft.EntityFrameworkCore;
 using EventApp.Infrastructure.Persistence;
+using EventApp.Domain.Intarfaces.IRepositories;
+using EventApp.Domain.Interfaces.IServices;
+
+
 
 namespace EventApp.API.Extensions
 {

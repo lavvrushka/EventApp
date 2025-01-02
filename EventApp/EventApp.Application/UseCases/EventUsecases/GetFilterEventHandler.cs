@@ -1,8 +1,10 @@
 ﻿using AutoMapper;
-using EventApp.Application.Common.Interfaces;
 using EventApp.Application.DTOs.Event.Requests;
 using EventApp.Application.DTOs.Event.Responses;
+using EventApp.Domain.Intarfaces.IRepositories;
+using EventApp.Domain.Models;
 using MediatR;
+using System.Linq.Expressions;
 
 namespace EventApp.Application.UseCases.EventUsecases
 {
@@ -17,17 +19,17 @@ namespace EventApp.Application.UseCases.EventUsecases
             _mapper = mapper;
         }
 
-      public async Task<List<EventResponse>> Handle(FilterEventsRequest request, CancellationToken cancellationToken)
-      {
-           
-            var address = request.Address ?? string.Empty;
-            var city = request.City ?? string.Empty;
-            var state = request.State ?? string.Empty;
-            var country = request.Country ?? string.Empty;
+        public async Task<List<EventResponse>> Handle(FilterEventsRequest request, CancellationToken cancellationToken)
+        {
+            Expression<Func<Event, bool>> filter = e =>
+                (string.IsNullOrEmpty(request.City) || e.Location.City == request.City) &&
+                (string.IsNullOrEmpty(request.Country) || e.Location.Country == request.Country) &&
+                (string.IsNullOrEmpty(request.Address) || e.Location.Address == request.Address) &&
+                (string.IsNullOrEmpty(request.State) || e.Location.State == request.State) &&
+                (string.IsNullOrEmpty(request.Category) || e.Category.ToLower().Contains(request.Category.ToLower()));
 
-            var eventsEntities = await _unitOfWork.Events.GetEventsFilteredAsync(address, city, state, country, request.Category);
+            var eventsEntities = await _unitOfWork.Events.GetFilteredAsync(filter);
             return _mapper.Map<List<EventResponse>>(eventsEntities);
-      }
-
+        }
     }
 }

@@ -2492,11 +2492,12 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "BCrypt.Net-Next": "4.0.3",
-          "EventApp.Application": "1.0.0",
+          "EventApp.Domain": "1.0.0",
           "MailKit": "4.9.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.11",
           "Microsoft.EntityFrameworkCore": "8.0.11",
           "MimeKit": "4.9.0",
+          "Newtonsoft.Json": "13.0.3",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11",
           "Portable.BouncyCastle": "1.9.0",
           "System.IdentityModel.Tokens.Jwt": "8.3.0"
@@ -7437,6 +7438,8 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AutoMapper >= 13.0.1",
+      "EventApp.Application >= 1.0.0",
       "EventApp.Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore.InMemory >= 8.0.11",
       "Microsoft.NET.Test.Sdk >= 17.8.0",
@@ -7479,6 +7482,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\EventApp.Application.csproj": {
+              "projectPath": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\EventApp.Application.csproj"
+            },
             "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\EventApp.Infrastructure.csproj"
             }
@@ -7500,6 +7506,10 @@
       "net8.0": {
         "targetAlias": "net8.0",
         "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[13.0.1, )"
+          },
           "Microsoft.EntityFrameworkCore.InMemory": {
             "target": "Package",
             "version": "[8.0.11, )"

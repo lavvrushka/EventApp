@@ -1,6 +1,7 @@
-﻿using EventApp.Application.Common.Interfaces;
+﻿
 using EventApp.Application.DTOs.Event.Requests;
 using EventApp.Application.UseCases.EventUsecases;
+using EventApp.Domain.Intarfaces.IRepositories;
 using EventApp.Domain.Models;
 using MediatR;
 using Moq;

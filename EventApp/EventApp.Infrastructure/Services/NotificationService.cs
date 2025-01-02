@@ -3,7 +3,7 @@ using System.Net;
 using EventApp.Domain.Models;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Configuration;
-using EventApp.Application.Common.Interfaces.IServices;
+using EventApp.Domain.Interfaces.IServices;
 
 namespace EventApp.Infrastructure.Services
 {

@@ -1,9 +1,9 @@
-﻿using EventApp.Application.Common.Interfaces;
-using EventApp.Application.DTOs.User.Requests;
+﻿using EventApp.Application.DTOs.User.Requests;
 using EventApp.Domain.Models;
 using MediatR;
-using EventApp.Application.Common.Interfaces.IServices;
 using EventApp.Application.Common.Exeptions;
+using EventApp.Domain.Interfaces.IServices;
+using EventApp.Domain.Intarfaces.IRepositories;
 
 namespace EventApp.Application.UseCases.UserUsecases
 {

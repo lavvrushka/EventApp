@@ -1,6 +1,6 @@
 ﻿using EventApp.Domain.Models;
 
-namespace EventApp.Application.Common.Interfaces.IRepositories
+namespace EventApp.Domain.Intarfaces.IRepositories
 {
     public interface IImageRepository : IRepository<Image>
     {

@@ -1,4 +1,4 @@
-﻿namespace EventApp.Application.Common.Interfaces.IRepositories
+﻿namespace EventApp.Domain.Intarfaces.IRepositories
 {
     /// <summary>
     /// Generic repository interface for basic entity operations.

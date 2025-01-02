@@ -1,8 +1,8 @@
-﻿using EventApp.Application.Common.Interfaces.IServices;
-using EventApp.Application.Common.Interfaces;
-using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Http;
 using MediatR;
 using EventApp.Application.DTOs.User.Requests;
+using EventApp.Domain.Intarfaces.IRepositories;
+using EventApp.Domain.Interfaces.IServices;
 
 namespace EventApp.Application.UseCases.AuthUsecases
 {

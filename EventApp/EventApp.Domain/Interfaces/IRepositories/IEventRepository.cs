@@ -1,6 +1,7 @@
 ﻿using EventApp.Domain.Models;
+using System.Linq.Expressions;
 
-namespace EventApp.Application.Common.Interfaces.IRepositories
+namespace EventApp.Domain.Intarfaces.IRepositories
 {
     public interface IEventRepository : IRepository<Event>
     {
@@ -32,18 +33,8 @@ namespace EventApp.Application.Common.Interfaces.IRepositories
         /// <summary>
         /// Retrieves a list of events filtered by specified parameters.
         /// </summary>
-        /// <param name="address">Optional address filter.</param>
-        /// <param name="city">Optional city filter.</param>
-        /// <param name="state">Optional state filter.</param>
-        /// <param name="country">Optional country filter.</param>
-        /// <param name="category">Optional category filter.</param>
-        Task<List<Event>> GetEventsFilteredAsync(
-            string? address = null,
-            string? city = null,
-            string? state = null,
-            string? country = null,
-            string? category = null
-        );
+        Task<List<Event>> GetFilteredAsync(Expression<Func<Event, bool>> filter);
+
 
         /// <summary>
         /// Retrieves a paged list of events based on the provided page settings.
