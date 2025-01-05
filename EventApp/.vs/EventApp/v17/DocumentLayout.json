@@ -3,7 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.infrastructure\\persistence\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|solutionrelative:eventapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.infrastructure\\persistence\\context\\dbconnectionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|solutionrelative:eventapp.infrastructure\\persistence\\context\\dbconnectionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.api\\extensions\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|solutionrelative:eventapp.api\\extensions\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|solutionrelative:eventapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|c:\\users\\pussydestroyer\\desktop\\project\\eventapp\\eventapp.infrastructure\\persistence\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|solutionrelative:eventapp.infrastructure\\persistence\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -15,16 +31,12 @@
       "RelativeMoniker": "D:0:0:{0562EC1C-CC36-4907-B24E-6DBE9062C6F9}|EventApp.Application\\EventApp.Application.csproj|solutionrelative:eventapp.application\\usecases\\eventusecases\\getfiltereventhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FEF9D65-096E-4C35-8FA0-A2682A77C506}|EventApp.Domain\\EventApp.Domain.csproj|c:\\users\\pussydestroyer\\desktop\\project\\eventapp\\eventapp.domain\\interfaces\\irepositories\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2FEF9D65-096E-4C35-8FA0-A2682A77C506}|EventApp.Domain\\EventApp.Domain.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.domain\\interfaces\\irepositories\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FEF9D65-096E-4C35-8FA0-A2682A77C506}|EventApp.Domain\\EventApp.Domain.csproj|solutionrelative:eventapp.domain\\interfaces\\irepositories\\ieventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FEF9D65-096E-4C35-8FA0-A2682A77C506}|EventApp.Domain\\EventApp.Domain.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.domain\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FEF9D65-096E-4C35-8FA0-A2682A77C506}|EventApp.Domain\\EventApp.Domain.csproj|solutionrelative:eventapp.domain\\models\\event.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|c:\\users\\pussydestroyer\\desktop\\project\\eventapp\\eventapp.api\\extensions\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|solutionrelative:eventapp.api\\extensions\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0562EC1C-CC36-4907-B24E-6DBE9062C6F9}|EventApp.Application\\EventApp.Application.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.application\\usecases\\userusecases\\getusersbypagehandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -123,10 +135,6 @@
       "RelativeMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|solutionrelative:eventapp.infrastructure\\persistence\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.infrastructure\\persistence\\context\\dbconnectionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|solutionrelative:eventapp.infrastructure\\persistence\\context\\dbconnectionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.infrastructure\\persistence\\context\\applicationdbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|solutionrelative:eventapp.infrastructure\\persistence\\context\\applicationdbcontextinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -185,14 +193,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0562EC1C-CC36-4907-B24E-6DBE9062C6F9}|EventApp.Application\\EventApp.Application.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.application\\dtos\\event\\requests\\getbypageasyncrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0562EC1C-CC36-4907-B24E-6DBE9062C6F9}|EventApp.Application\\EventApp.Application.csproj|solutionrelative:eventapp.application\\dtos\\event\\requests\\getbypageasyncrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|solutionrelative:eventapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|solutionrelative:eventapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0562EC1C-CC36-4907-B24E-6DBE9062C6F9}|EventApp.Application\\EventApp.Application.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.application\\common\\exeptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -514,7 +514,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1362,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -534,45 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "IEventRepository.cs",
-              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Domain\\Interfaces\\IRepositories\\IEventRepository.cs",
-              "RelativeDocumentMoniker": "EventApp.Domain\\Interfaces\\IRepositories\\IEventRepository.cs",
-              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Domain\\Interfaces\\IRepositories\\IEventRepository.cs",
-              "RelativeToolTip": "EventApp.Domain\\Interfaces\\IRepositories\\IEventRepository.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB8AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T19:58:27.069Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UpdateEventHandler.cs",
-              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\UpdateEventHandler.cs",
-              "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\UpdateEventHandler.cs",
-              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\UpdateEventHandler.cs",
-              "RelativeToolTip": "EventApp.Application\\UseCases\\EventUsecases\\UpdateEventHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T16:10:44.387Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GetFilterEventHandler.cs",
-              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetFilterEventHandler.cs",
-              "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\GetFilterEventHandler.cs",
-              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetFilterEventHandler.cs",
-              "RelativeToolTip": "EventApp.Application\\UseCases\\EventUsecases\\GetFilterEventHandler.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T19:08:37.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "GetUsersByPageHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\UserUsecases\\GetUsersByPageHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\UserUsecases\\GetUsersByPageHandler.cs",
@@ -584,20 +546,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "InfrastructureServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Extensions\\InfrastructureServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "EventApp.API\\Extensions\\InfrastructureServiceCollectionExtensions.cs",
               "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Extensions\\InfrastructureServiceCollectionExtensions.cs",
               "RelativeToolTip": "EventApp.API\\Extensions\\InfrastructureServiceCollectionExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAlAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T21:33:27.803Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "RegisterUserToEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\UserUsecases\\RegisterUserToEventHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\UserUsecases\\RegisterUserToEventHandler.cs",
@@ -609,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Event.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Domain\\Models\\Event.cs",
               "RelativeDocumentMoniker": "EventApp.Domain\\Models\\Event.cs",
@@ -617,12 +579,11 @@
               "RelativeToolTip": "EventApp.Domain\\Models\\Event.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T16:24:56.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-28T16:24:56.475Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "EventRepository.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Repositories\\EventRepository.cs",
               "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Repositories\\EventRepository.cs",
@@ -635,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "ImageRepository.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Repositories\\ImageRepository.cs",
               "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Repositories\\ImageRepository.cs",
@@ -643,12 +604,86 @@
               "RelativeToolTip": "EventApp.Infrastructure\\Persistence\\Repositories\\ImageRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T22:01:50.483Z",
+              "WhenOpened": "2024-12-29T22:01:50.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DbConnectionSettings.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
+              "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
+              "RelativeToolTip": "EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T22:01:05.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Program.cs",
+              "RelativeDocumentMoniker": "EventApp.API\\Program.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Program.cs",
+              "RelativeToolTip": "EventApp.API\\Program.cs",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAswE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T00:04:20.577Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\appsettings.json",
+              "RelativeDocumentMoniker": "EventApp.API\\appsettings.json",
+              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\appsettings.json",
+              "RelativeToolTip": "EventApp.API\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T02:30:59.09Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetFilterEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetFilterEventHandler.cs",
+              "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\GetFilterEventHandler.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetFilterEventHandler.cs",
+              "RelativeToolTip": "EventApp.Application\\UseCases\\EventUsecases\\GetFilterEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-29T19:08:37.414Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UpdateEventHandler.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\UpdateEventHandler.cs",
+              "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\UpdateEventHandler.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\UpdateEventHandler.cs",
+              "RelativeToolTip": "EventApp.Application\\UseCases\\EventUsecases\\UpdateEventHandler.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-28T16:10:44.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEventRepository.cs",
+              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Domain\\Interfaces\\IRepositories\\IEventRepository.cs",
+              "RelativeDocumentMoniker": "EventApp.Domain\\Interfaces\\IRepositories\\IEventRepository.cs",
+              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Domain\\Interfaces\\IRepositories\\IEventRepository.cs",
+              "RelativeToolTip": "EventApp.Domain\\Interfaces\\IRepositories\\IEventRepository.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-02T19:58:27.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "CurrentUserHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\UserUsecases\\CurrentUserHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\UserUsecases\\CurrentUserHandler.cs",
@@ -660,7 +695,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "DeleteUserInEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\UserUsecases\\DeleteUserInEventHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\UserUsecases\\DeleteUserInEventHandler.cs",
@@ -672,7 +707,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
               "Title": "GetUsersByEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\UserUsecases\\GetUsersByEventHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\UserUsecases\\GetUsersByEventHandler.cs",
@@ -684,7 +719,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "GetEventsSortedByLocationHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetEventsSortedByLocationHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\GetEventsSortedByLocationHandler.cs",
@@ -696,7 +731,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "GetEventByPageHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetEventByPageHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\GetEventByPageHandler.cs",
@@ -708,7 +743,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "GetEventsSortedByCategoryHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetEventsSortedByCategoryHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\GetEventsSortedByCategoryHandler.cs",
@@ -720,7 +755,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "GetEventByTitleHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetEventByTitleHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\GetEventByTitleHandler.cs",
@@ -732,7 +767,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "GetEventByIdHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetEventByIdHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\GetEventByIdHandler.cs",
@@ -744,7 +779,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "GetEventByDateHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetEventByDateHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\GetEventByDateHandler.cs",
@@ -756,7 +791,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "GetAllEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\GetAllEventHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\GetAllEventHandler.cs",
@@ -768,7 +803,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "AddEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\AddEventHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\AddEventHandler.cs",
@@ -780,7 +815,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "GetUserEventsHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\UserUsecases\\GetUserEventsHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\UserUsecases\\GetUserEventsHandler.cs",
@@ -792,7 +827,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "RegisterHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\AuthUsecases\\RegisterHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\AuthUsecases\\RegisterHandler.cs",
@@ -804,7 +839,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "LoginHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\AuthUsecases\\LoginHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\AuthUsecases\\LoginHandler.cs",
@@ -816,7 +851,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "DeleteEventHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\EventUsecases\\DeleteEventHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\EventUsecases\\DeleteEventHandler.cs",
@@ -828,7 +863,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 27,
               "Title": "LogoutHandler.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\UseCases\\AuthUsecases\\LogoutHandler.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\UseCases\\AuthUsecases\\LogoutHandler.cs",
@@ -852,7 +887,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 28,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
               "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Repositories\\UserRepository.cs",
@@ -864,7 +899,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 29,
               "Title": "RefreshTokenRepository.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Repositories\\RefreshTokenRepository.cs",
               "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Repositories\\RefreshTokenRepository.cs",
@@ -876,7 +911,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 30,
               "Title": "RoleRepository.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Repositories\\RoleRepository.cs",
               "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Repositories\\RoleRepository.cs",
@@ -888,7 +923,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Repositories\\Repository.cs",
               "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Repositories\\Repository.cs",
@@ -900,7 +935,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\UnitOfWork.cs",
@@ -984,7 +1019,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "GlobalExceptionMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Middlewares\\GlobalExceptionMiddleware.cs",
               "RelativeDocumentMoniker": "EventApp.API\\Middlewares\\GlobalExceptionMiddleware.cs",
@@ -996,7 +1031,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "EventsController.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Controllers\\EventsController.cs",
               "RelativeDocumentMoniker": "EventApp.API\\Controllers\\EventsController.cs",
@@ -1008,7 +1043,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "CreateEventRequestValidator.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\Common\\Validation\\Validators\\Event\\CreateEventRequestValidator.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\Common\\Validation\\Validators\\Event\\CreateEventRequestValidator.cs",
@@ -1020,7 +1055,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "ValidationMiddleware.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Middlewares\\ValidationMiddleware.cs",
               "RelativeDocumentMoniker": "EventApp.API\\Middlewares\\ValidationMiddleware.cs",
@@ -1032,7 +1067,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "ValidationService.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\Common\\Validation\\ValidationService.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\Common\\Validation\\ValidationService.cs",
@@ -1044,7 +1079,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "ApplicationDbContextInitializer.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Context\\ApplicationDbContextInitializer.cs",
               "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Context\\ApplicationDbContextInitializer.cs",
@@ -1056,19 +1091,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "DbConnectionSettings.cs",
-              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
-              "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
-              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
-              "RelativeToolTip": "EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAB2AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T22:01:05.984Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "UpdateEventRequestValidator.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\Common\\Validation\\Validators\\Event\\UpdateEventRequestValidator.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\Common\\Validation\\Validators\\Event\\UpdateEventRequestValidator.cs",
@@ -1080,7 +1103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "LocationRequestValidator.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\Common\\Validation\\Validators\\Location\\LocationRequestValidator.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\Common\\Validation\\Validators\\Location\\LocationRequestValidator.cs",
@@ -1092,7 +1115,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "LocationResponseValidator.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\Common\\Validation\\Validators\\Location\\LocationResponseValidator.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\Common\\Validation\\Validators\\Location\\LocationResponseValidator.cs",
@@ -1104,7 +1127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "UserLoginRequestValidator.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\Common\\Validation\\Validators\\User\\UserLoginRequestValidator.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\Common\\Validation\\Validators\\User\\UserLoginRequestValidator.cs",
@@ -1116,7 +1139,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "UserRegisterRequestValidator.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\Common\\Validation\\Validators\\User\\UserRegisterRequestValidator.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\Common\\Validation\\Validators\\User\\UserRegisterRequestValidator.cs",
@@ -1128,7 +1151,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "ValidationAttribute.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Middlewares\\ValidationAttribute.cs",
               "RelativeDocumentMoniker": "EventApp.API\\Middlewares\\ValidationAttribute.cs",
@@ -1140,7 +1163,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "EventApp.API\\Controllers\\UserController.cs",
@@ -1152,7 +1175,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "ValidationEventAppException.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\Common\\Exeptions\\ValidationEventAppException.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\Common\\Exeptions\\ValidationEventAppException.cs",
@@ -1164,7 +1187,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "GetByPageAsyncRequest.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\DTOs\\Event\\Requests\\GetByPageAsyncRequest.cs",
               "RelativeDocumentMoniker": "EventApp.Application\\DTOs\\Event\\Requests\\GetByPageAsyncRequest.cs",
@@ -1173,30 +1196,6 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T20:37:38.918Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\appsettings.json",
-              "RelativeDocumentMoniker": "EventApp.API\\appsettings.json",
-              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\appsettings.json",
-              "RelativeToolTip": "EventApp.API\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-30T02:30:59.09Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Program.cs",
-              "RelativeDocumentMoniker": "EventApp.API\\Program.cs",
-              "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Program.cs",
-              "RelativeToolTip": "EventApp.API\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAjAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:04:20.577Z"
             },
             {
               "$type": "Document",

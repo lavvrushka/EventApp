@@ -6,20 +6,23 @@ namespace EventApp.Infrastructure.Persistence.Context
 {
     public class DbConnectionSettings : IDesignTimeDbContextFactory<ApplicationDbContext>
     {
-            public ApplicationDbContext CreateDbContext(string[] args)
-            {
-                IConfigurationRoot configuration = new ConfigurationBuilder()
-                    .SetBasePath(Directory.GetCurrentDirectory())
-                    .AddJsonFile("C:\\Users\\pussydestroyer\\source\\repos\\EventApp\\EventApp.API\\appsettings.json")
-                    .Build();
-       
+        public ApplicationDbContext CreateDbContext(string[] args)
+        {
+            var environmentName = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT") ?? "Development";
+
+            IConfigurationRoot configuration = new ConfigurationBuilder()
+                .SetBasePath(Directory.GetCurrentDirectory())
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: true)
+                .AddJsonFile($"appsettings.{environmentName}.json", optional: true)
+                .AddEnvironmentVariables()
+                .Build();
+
             var connectionString = configuration.GetConnectionString("DefaultConnection");
 
-                var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
-                optionsBuilder.UseNpgsql(connectionString);
+            var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
+            optionsBuilder.UseNpgsql(connectionString);
 
-                return new ApplicationDbContext(optionsBuilder.Options);
-            }
-        
+            return new ApplicationDbContext(optionsBuilder.Options);
+        }
     }
 }
