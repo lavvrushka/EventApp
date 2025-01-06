@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|solutionrelative:eventapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.infrastructure\\persistence\\context\\dbconnectionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|solutionrelative:eventapp.infrastructure\\persistence\\context\\dbconnectionsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.infrastructure\\persistence\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|solutionrelative:eventapp.infrastructure\\persistence\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|c:\\users\\pussydestroyer\\desktop\\project\\eventapp\\eventapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|solutionrelative:eventapp.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.api\\extensions\\infrastructureservicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{775510C9-B20C-4FBF-80FC-CF3BB4D0211D}|EventApp.API\\EventApp.API.csproj|solutionrelative:eventapp.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|c:\\users\\pussydestroyer\\desktop\\project\\eventapp\\eventapp.infrastructure\\persistence\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|solutionrelative:eventapp.infrastructure\\persistence\\repositories\\eventrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{76AE8E19-EFF8-4301-A493-9923B7772000}|EventApp.Infrastructure\\EventApp.Infrastructure.csproj|C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\eventapp.infrastructure\\persistence\\repositories\\imagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -514,7 +514,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1362,
-          "SelectedChildIndex": 12,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -546,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "InfrastructureServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Extensions\\InfrastructureServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "EventApp.API\\Extensions\\InfrastructureServiceCollectionExtensions.cs",
@@ -554,8 +554,7 @@
               "RelativeToolTip": "EventApp.API\\Extensions\\InfrastructureServiceCollectionExtensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T21:33:27.803Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T21:33:27.803Z"
             },
             {
               "$type": "Document",
@@ -583,13 +582,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "EventRepository.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Repositories\\EventRepository.cs",
               "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Repositories\\EventRepository.cs",
               "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Repositories\\EventRepository.cs",
               "RelativeToolTip": "EventApp.Infrastructure\\Persistence\\Repositories\\EventRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAJAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAgwDcAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T12:55:53.968Z",
               "EditorCaption": ""
@@ -608,20 +607,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "DbConnectionSettings.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
               "RelativeDocumentMoniker": "EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
               "ToolTip": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
               "RelativeToolTip": "EventApp.Infrastructure\\Persistence\\Context\\DbConnectionSettings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-29T22:01:05.984Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\Program.cs",
               "RelativeDocumentMoniker": "EventApp.API\\Program.cs",
@@ -629,12 +628,11 @@
               "RelativeToolTip": "EventApp.API\\Program.cs",
               "ViewState": "AQIAAB0AAAAAAAAAAAAswE4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-29T00:04:20.577Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-29T00:04:20.577Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.API\\appsettings.json",
               "RelativeDocumentMoniker": "EventApp.API\\appsettings.json",
