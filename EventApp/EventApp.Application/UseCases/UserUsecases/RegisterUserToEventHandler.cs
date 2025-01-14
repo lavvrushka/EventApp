@@ -24,7 +24,7 @@ namespace EventApp.Application.UseCases.UserUsecases
             var token = _tokenService.ExtractTokenFromHeader();
 
             User userEntity;
-            userEntity = await AuthenticateUserAsync(token);
+            userEntity = await _tokenService.AuthenticateUserAsync(token);
             
             var eventItem = await _unitOfWork.Events.GetByIdAsync(request.IdEvent)
                 ?? throw new NotFoundException("Event", request.IdEvent);
@@ -39,17 +39,6 @@ namespace EventApp.Application.UseCases.UserUsecases
             await _unitOfWork.SaveChangesAsync();
 
             return Unit.Value;
-        }
-
-        private async Task<User> AuthenticateUserAsync(string token)
-        {
-            var userId = _tokenService.ExtractUserIdFromToken(token)
-                ?? throw new UnauthorizedAccessException("Invalid token.");
-
-            var user = await _unitOfWork.Users.GetByIdAsync(userId)
-                ?? throw new NotFoundException("User", userId);
-
-            return user;
         }
     }
 }

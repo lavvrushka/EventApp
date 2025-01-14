@@ -1,4 +1,5 @@
-﻿using EventApp.Domain.Intarfaces.IRepositories;
+﻿using EventApp.Application.Common.Exeptions;
+using EventApp.Domain.Intarfaces.IRepositories;
 using EventApp.Domain.Interfaces.IServices;
 using EventApp.Domain.Models;
 using Microsoft.AspNetCore.Http;
@@ -80,7 +81,7 @@ namespace EventApp.Infrastructure.Services
             }
         }
 
-        public async Task<(string newAccessToken, string newRefreshToken)> RefreshTokensAsync(string token)
+        public async Task<(string newAccessToken, string RefreshToken)> RefreshTokensAsync(string token)
         {
  
             var oldToken = await _unitOfWork.RefreshTokens.GetByTokenAsync(token);
@@ -88,7 +89,10 @@ namespace EventApp.Infrastructure.Services
             {
                 throw new UnauthorizedAccessException("Invalid refresh token.");
             }
-
+            if (oldToken.Expires < DateTime.UtcNow)
+            {
+                throw new UnauthorizedAccessException("Refresh token has expired.");
+            }
             var user = await _unitOfWork.Users.GetByIdAsync(oldToken.UserId);
             if (user == null)
             {
@@ -96,18 +100,8 @@ namespace EventApp.Infrastructure.Services
             }
 
             var newAccessToken = await GenerateAccessToken(user);
-            var newRefreshToken = await GenerateRefreshTokenAsync(user.Id);
 
-            await _unitOfWork.RefreshTokens.DeleteAsync(oldToken);
-            await _unitOfWork.SaveChangesAsync();
-
-            var refreshToken = new RefreshToken
-            {
-                UserId = user.Id,
-                Token = newRefreshToken
-            };
-
-            return (newAccessToken, newRefreshToken);
+            return (newAccessToken, oldToken.Token);
         }
 
         public string? ExtractTokenFromHeader()
@@ -150,6 +144,17 @@ namespace EventApp.Infrastructure.Services
             {
                 throw new UnauthorizedAccessException("Token validation failed.", ex);
             }
+        }
+
+        public async Task<User> AuthenticateUserAsync(string token)
+        {
+            var userId = ExtractUserIdFromToken(token)
+                ?? throw new UnauthorizedAccessException("Invalid token.");
+
+            var user = await _unitOfWork.Users.GetByIdAsync(userId)
+                ?? throw new NotFoundException("User", userId);
+
+            return user;
         }
 
     }

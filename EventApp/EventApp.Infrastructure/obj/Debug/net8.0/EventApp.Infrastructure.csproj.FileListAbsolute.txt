@@ -34,3 +34,5 @@ C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\obj\Deb
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\obj\Debug\net8.0\EventApp.Infrastructure.pdb
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\obj\Debug\net8.0\EventApp.Infrastructure.genruntimeconfig.cache
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\obj\Debug\net8.0\ref\EventApp.Infrastructure.dll
+C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\bin\Debug\net8.0\EventApp.Application.dll
+C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Infrastructure\bin\Debug\net8.0\EventApp.Application.pdb

@@ -30,22 +30,16 @@ namespace EventApp.Infrastructure.Persistence.Repositories
         public virtual async Task AddAsync(T entity)
         {
             await _dbSet.AddAsync(entity);
-            await _context.SaveChangesAsync();
         }
 
         public virtual async Task UpdateAsync(T entity)
         {
             _dbSet.Update(entity);
-            await _context.SaveChangesAsync();
         }
 
         public virtual async Task DeleteAsync(T entity)
         {
-            if (entity != null)
-            {
-                _dbSet.Remove(entity);
-                await _context.SaveChangesAsync();
-            }
+            _dbSet.Remove(entity);
         }
 
     }

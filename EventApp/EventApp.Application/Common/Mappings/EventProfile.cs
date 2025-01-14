@@ -23,6 +23,10 @@ namespace EventApp.Application.Common.Mappings
             .ForMember(dest => dest.ImageData, opt => opt.Condition(src => src.ImageData != null))
             .ForMember(dest => dest.ImageType, opt => opt.Condition(src => src.ImageType != null));
 
+            CreateMap<DeleteEventRequest, Event>().ReverseMap()
+            .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id));
+
+
         }
 
     }

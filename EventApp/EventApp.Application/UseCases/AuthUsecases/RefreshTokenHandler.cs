@@ -27,8 +27,5 @@ namespace EventApp.Application.UseCases.AuthUsecases
 
             return _mapper.Map<UserTokenRespones>((newAccessToken, newRefreshToken));
         }
-
-
-      
     }
 }

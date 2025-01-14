@@ -11,7 +11,6 @@ namespace EventApp.Infrastructure.Persistence.Repositories
         public async Task<Guid> AddImageToEventAsync(Image image)
         {
             await _context.Set<Image>().AddAsync(image);
-            await _context.SaveChangesAsync();
             return image.Id;
         }
     }

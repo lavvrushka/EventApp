@@ -25,20 +25,8 @@ namespace EventApp.Infrastructure.Persistence.Repositories
                 .Include(e => e.Users)
                 .FirstOrDefaultAsync(e => e.Id == idEvent);
 
-            if (user != null && eventItem != null)
-            {
-                if (!eventItem.Users.Contains(user))
-                {
-                    eventItem.Users.Add(user);
-                }
-
-                if (!user.EventRegistrationDates.ContainsKey(idEvent))
-                {
-                    user.EventRegistrationDates[idEvent] = DateTime.UtcNow;
-                }
-
-                await _context.SaveChangesAsync();
-            }
+            eventItem.Users.Add(user);
+            user.EventRegistrationDates[idEvent] = DateTime.UtcNow;
         }
 
         public async Task<User?> GetUserEventsAsync(Guid id)
@@ -60,11 +48,7 @@ namespace EventApp.Infrastructure.Persistence.Repositories
             var eventItem = await _context.Events.Include(e => e.Users).FirstOrDefaultAsync(e => e.Id == idEvent);
             var user = eventItem?.Users.FirstOrDefault(u => u.Id == idUser);
 
-            if (user != null)
-            {
-                eventItem.Users.Remove(user);
-                await _context.SaveChangesAsync();
-            }
+            eventItem.Users.Remove(user);
         }
 
         public async Task<List<User>> GetByPageAsync(PageSettings pageSettings)
@@ -78,15 +62,12 @@ namespace EventApp.Infrastructure.Persistence.Repositories
         public async Task<int> GetUserCountAsync()
         {
             return await _context.Users.CountAsync();
-
-
         }
 
         public new async Task<User> GetByIdAsync(Guid id)
         {
             return await _context.Users
                 .Include(e => e.Role).FirstOrDefaultAsync(e => e.Id == id);  
-
         }
     }
 }

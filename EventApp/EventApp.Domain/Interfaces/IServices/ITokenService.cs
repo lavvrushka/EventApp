@@ -29,7 +29,7 @@ namespace EventApp.Domain.Interfaces.IServices
         /// </summary>
         /// <param name="token">The current refresh token to be used for generating new tokens.</param>
         /// <returns>A task representing the asynchronous operation, containing the new access token and refresh token.</returns>
-        Task<(string newAccessToken, string newRefreshToken)> RefreshTokensAsync(string token);
+        Task<(string newAccessToken, string RefreshToken)> RefreshTokensAsync(string token);
 
         /// <summary>
         /// Extracts the user ID from the given token.
@@ -43,5 +43,7 @@ namespace EventApp.Domain.Interfaces.IServices
         /// </summary>
         /// <returns>The token extracted from the header, or null if no token is found.</returns>
         string? ExtractTokenFromHeader();
+
+        Task<User> AuthenticateUserAsync(string token);
     }
 }

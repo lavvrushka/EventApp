@@ -21,7 +21,7 @@ namespace EventApp.Application.UseCases.AuthUsecases
 
         public async Task<Unit> Handle(UserLogoutRequest request, CancellationToken cancellationToken)
         {
-            var token = ExtractTokenFromHeader() ?? throw new UnauthorizedAccessException("Token is missing.");
+            var token = _tokenService.ExtractTokenFromHeader() ?? throw new UnauthorizedAccessException("Token is missing.");
             var refreshToken = await _unitOfWork.RefreshTokens.GetByTokenAsync(token);
 
             if (refreshToken != null)
@@ -30,23 +30,6 @@ namespace EventApp.Application.UseCases.AuthUsecases
             }
 
             return Unit.Value;
-        }
-
-        private string? ExtractTokenFromHeader()
-        {
-            var authorizationHeader = _httpContextAccessor.HttpContext?.Request.Headers["Authorization"].FirstOrDefault();
-
-            if (string.IsNullOrEmpty(authorizationHeader))
-            {
-                return null;
-            }
-
-            if (authorizationHeader.StartsWith("Bearer "))
-            {
-                return authorizationHeader.Substring("Bearer ".Length).Trim();
-            }
-
-            return null;
-        }
+        }  
     }
 }

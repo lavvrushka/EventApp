@@ -45,10 +45,8 @@ namespace EventApp.Application.UseCases.UserUsecases
             {
                 throw new UnauthorizedAccessException("User not found.");
             }
-
             
             var userResponse = _mapper.Map<UserResponse>(user);
-
             return userResponse;
         }
     }

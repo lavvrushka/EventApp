@@ -298,6 +298,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\EventApp.Application.csproj": {
+                "projectPath": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Application\\EventApp.Application.csproj"
+              },
               "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Domain\\EventApp.Domain.csproj": {
                 "projectPath": "C:\\Users\\pussydestroyer\\Desktop\\Project\\EventApp\\EventApp.Domain\\EventApp.Domain.csproj"
               }
