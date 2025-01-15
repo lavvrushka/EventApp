@@ -140,3 +140,5 @@ C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Tests\obj\Debug\net8.0
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Tests\obj\Debug\net8.0\EventApp.Tests.genruntimeconfig.cache
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Tests\obj\Debug\net8.0\ref\EventApp.Tests.dll
 C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Tests\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Tests\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\pussydestroyer\Desktop\Project\EventApp\EventApp.Tests\bin\Debug\net8.0\StackExchange.Redis.dll

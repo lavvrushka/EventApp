@@ -1,7 +1,6 @@
 ﻿using EventApp.Application.DTOs.User.Responses;
 using EventApp.Application.DTOs.User.Requests;
 using MediatR;
-using Microsoft.AspNetCore.Http;
 using AutoMapper;
 using EventApp.Domain.Intarfaces.IRepositories;
 using EventApp.Domain.Interfaces.IServices;
@@ -12,14 +11,12 @@ namespace EventApp.Application.UseCases.UserUsecases
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly ITokenService _tokenService;
-        private readonly IHttpContextAccessor _httpContextAccessor;
         private readonly IMapper _mapper;
 
-        public CurrentUserHandler(IUnitOfWork unitOfWork, ITokenService tokenService, IHttpContextAccessor httpContextAccessor, IMapper mapper)
+        public CurrentUserHandler(IUnitOfWork unitOfWork, ITokenService tokenService, IMapper mapper)
         {
             _unitOfWork = unitOfWork;
             _tokenService = tokenService;
-            _httpContextAccessor = httpContextAccessor;
             _mapper = mapper;
         }
 

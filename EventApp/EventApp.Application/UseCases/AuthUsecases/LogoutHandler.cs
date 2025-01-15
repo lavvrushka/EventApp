@@ -10,13 +10,11 @@ namespace EventApp.Application.UseCases.AuthUsecases
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly ITokenService _tokenService;
-        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        public LogoutHandler(IUnitOfWork unitOfWork, ITokenService tokenService, IHttpContextAccessor httpContextAccessor)
+        public LogoutHandler(IUnitOfWork unitOfWork, ITokenService tokenService)
         {
             _unitOfWork = unitOfWork;
             _tokenService = tokenService;
-            _httpContextAccessor = httpContextAccessor;
         }
 
         public async Task<Unit> Handle(UserLogoutRequest request, CancellationToken cancellationToken)

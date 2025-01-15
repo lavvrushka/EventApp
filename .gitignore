@@ -1,1 +1,10 @@
 ClientEventApp/events-app/node_modules/
+EventApp/EventApp.API/bin/
+EventApp/EventApp.API/obj/
+EventApp/EventApp.Application/bin/
+EventApp/EventApp.Application/obj/
+EventApp/EventApp.Infrastructure/bin/
+EventApp/EventApp.Infrastructure/obj/
+EventApp/EventApp.Domain/bin/
+EventApp/EventApp.Domain/obj/
+EventApp/.vs/

@@ -43,6 +43,7 @@ namespace EventApp.Tests.RepositoryTests
 
             // Act
             await repository.AddAsync(eventEntity);
+            await context.SaveChangesAsync();
 
             // Assert
             var savedEvent = await context.Events
