@@ -1,13 +1,15 @@
-# Ignore node_modules
 ClientEventApp/events-app/node_modules/
 
-# Ignore build directories
-EventApp/**/bin/
-EventApp/**/obj/
+EventApp/EventApp.API/bin/
+EventApp/EventApp.API/obj/
+EventApp/EventApp.Application/bin/
+EventApp/EventApp.Application/obj/
+EventApp/EventApp.Infrastructure/bin/
+EventApp/EventApp.Infrastructure/obj/
+EventApp/EventApp.Domain/bin/
+EventApp/EventApp.Domain/obj/
 
-# Ignore Visual Studio files
 EventApp/.vs/
 
-# Ignore user-specific files
 *.user
 *.suo
